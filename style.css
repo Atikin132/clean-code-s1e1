@@ -18,8 +18,9 @@
 }
 
 @media (max-width:768px) {
-.about-container { text-align: center;
-}
+  .about-container {
+    text-align: center;
+  }
 }
 .main-container {
   display: block;
@@ -41,7 +42,7 @@ ul {
 li, h3 {
   list-style:none;
 }
-input,button{
+input, button {
   outline:none;
 }
 .button {
@@ -137,7 +138,7 @@ input,button{
   display:none
 }
 
-.list-item.edit-mode .edit-task-input{
+.list-item.edit-mode .edit-task-input {
   display:inline-block;
   width:224px
 }
